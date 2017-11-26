@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>background301.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{242,0},{99,394}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{99,394}}</string>
+				<key>sourceSize</key>
+				<string>{99,394}</string>
+			</dict>
+
+			<key>background302.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{430,0},{87,394}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{87,394}}</string>
+				<key>sourceSize</key>
+				<string>{87,394}</string>
+			</dict>
+
+			<key>background303.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{518,0},{87,395}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{87,395}}</string>
+				<key>sourceSize</key>
+				<string>{87,395}</string>
+			</dict>
+
+			<key>background304.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{342,0},{87,397}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{87,397}}</string>
+				<key>sourceSize</key>
+				<string>{87,397}</string>
+			</dict>
+
+			<key>background305.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{121,266},{51,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{51,132}}</string>
+				<key>sourceSize</key>
+				<string>{51,132}</string>
+			</dict>
+
+			<key>background306.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,262},{120,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{120,132}}</string>
+				<key>sourceSize</key>
+				<string>{120,132}</string>
+			</dict>
+
+			<key>background307.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{121,0},{120,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{120,132}}</string>
+				<key>sourceSize</key>
+				<string>{120,132}</string>
+			</dict>
+
+			<key>background308.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{121,133},{75,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{75,132}}</string>
+				<key>sourceSize</key>
+				<string>{75,132}</string>
+			</dict>
+
+			<key>background309.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{120,261}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{120,261}}</string>
+				<key>sourceSize</key>
+				<string>{120,261}</string>
+			</dict>
+
+		</dict>
+
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>size</key>
+			<string>{1024,512}</string>
+			<key>textureFileName</key>
+			<string>background03.png</string>
+			</dict>
+		</dict>
+</plist>
