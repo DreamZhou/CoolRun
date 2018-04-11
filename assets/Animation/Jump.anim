@@ -5,8 +5,8 @@
   "_rawFiles": null,
   "_duration": 1,
   "sample": 5,
-  "speed": 1.2,
-  "wrapMode": 2,
+  "speed": 1,
+  "wrapMode": 1,
   "curveData": {
     "comps": {
       "cc.Sprite": {
@@ -14,31 +14,31 @@
           {
             "frame": 0,
             "value": {
-              "__uuid__": "8f50f4d6-9dc9-482f-adb9-301ac0307ade"
+              "__uuid__": "ce0e0639-674c-4a36-b74b-63b2dc337f51"
             }
           },
           {
             "frame": 0.2,
             "value": {
-              "__uuid__": "ce0e0639-674c-4a36-b74b-63b2dc337f51"
+              "__uuid__": "773730ea-d1b2-4192-ba1c-fa47069d6fc8"
             }
           },
           {
             "frame": 0.4,
             "value": {
-              "__uuid__": "773730ea-d1b2-4192-ba1c-fa47069d6fc8"
+              "__uuid__": "f38c82a9-412f-482c-81b2-3b950ef68837"
             }
           },
           {
             "frame": 0.6,
             "value": {
-              "__uuid__": "f38c82a9-412f-482c-81b2-3b950ef68837"
+              "__uuid__": "32e45342-ac5a-4bc4-b7cb-667c99743df8"
             }
           },
           {
             "frame": 0.8,
             "value": {
-              "__uuid__": "32e45342-ac5a-4bc4-b7cb-667c99743df8"
+              "__uuid__": "8f50f4d6-9dc9-482f-adb9-301ac0307ade"
             }
           }
         ]
