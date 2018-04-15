@@ -3,7 +3,7 @@
   "_name": "Run",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 1,
+  "_duration": 1.0833333333333333,
   "sample": 12,
   "speed": 1.5,
   "wrapMode": 2,
@@ -80,6 +80,12 @@
           },
           {
             "frame": 0.9166666666666666,
+            "value": {
+              "__uuid__": "6d7802ef-e142-4177-86c0-9aca830f860b"
+            }
+          },
+          {
+            "frame": 1,
             "value": {
               "__uuid__": "6d7802ef-e142-4177-86c0-9aca830f860b"
             }
