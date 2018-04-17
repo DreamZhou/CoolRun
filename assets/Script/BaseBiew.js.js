@@ -6,7 +6,8 @@ cc.Class({
         m_Hero:cc.Sprite,
         m_BtnRoll:cc.Button,
         m_Back1:cc.Node,
-
+        m_Back2:cc.Node,
+        m_Back3:cc.Node,
     },
 
     start () {
@@ -16,11 +17,6 @@ cc.Class({
         this.m_BtnRoll.node.on(cc.Node.EventType.TOUCH_START,this.touchStart,this)
         this.m_BtnRoll.node.on(cc.Node.EventType.TOUCH_END,this.touchEnd,this)
         this.m_BtnRoll.node.on(cc.Node.EventType.TOUCH_CANCEL,this.touchEnd,this)
-
-        let move0 = cc.moveBy(2.5,cc.p(-250,0));
-        // this.m_Back1[0].runAction(cc.sequence(move0,cc.callFunc(this.moveCallBack,this)));
-        // let move1 = cc.moveTo(10.0,cc.p(-500,25));
-        this.m_Back1.runAction(cc.repeatForever(cc.sequence(move0,cc.callFunc(this.moveCallBack,this))));
     },
     touchStart(){
         cc.log('touchStart');
@@ -65,20 +61,30 @@ cc.Class({
    }, 
    isCanChangeClip(clipName){
    },
-   moveCallBack(target){
+   moveCallBack(target,moveDistance){
        const childNum = target.children.length;
        for (const key in target.children) {
            if (target.children.hasOwnProperty(key)) {
                const child = target.children[key];
                let worldPos = target.convertToWorldSpace(child.position);
-               cc.log('worldPos -->'+ worldPos);
-               if(worldPos.x <-500.0){
-                   cc.log('positionx -- >' + child.getPositionX()+490*childNum);
-                child.setPositionX(child.getPositionX()+490*childNum);
+               if(worldPos.x <-moveDistance -10){
+                child.setPositionX(child.getPositionX()+moveDistance*childNum);
                }              
            }
        }
 
    },
-    // update (dt) {},
+   update (dt) {
+    let BG1PoxX = this.m_Back1.getPositionX();
+    this.m_Back1.setPositionX(BG1PoxX - dt *BG1MoveSpeed );
+    this.moveCallBack(this.m_Back1,MoveDistance1);
+
+    let BG2PoxX = this.m_Back2.getPositionX();
+    this.m_Back2.setPositionX(BG2PoxX - dt *BG2MoveSpeed );
+    this.moveCallBack(this.m_Back2,MoveDistance2);
+
+    let BG3PoxX = this.m_Back3.getPositionX();
+    this.m_Back3.setPositionX(BG3PoxX - dt *BG3MoveSpeed );
+    this.moveCallBack(this.m_Back3,MoveDistance3);
+   },
 });
